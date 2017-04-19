@@ -37,6 +37,11 @@ gem 'devise', '~> 4.1', '>= 4.1.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem "twitter-bootstrap-rails"
+
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
